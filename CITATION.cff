@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the versioned package."
+title: "Auditable Flourishing: A Non-Compensatory Assurance Protocol for Frameworks Claiming to Support Flourishing"
+version: "6.2"
+date-released: "2026-08-15"
+authors:
+  - family-names: McGaughran
+    given-names: James
+    orcid: "https://orcid.org/0009-0005-3324-7290"
+license: "See LICENSE_NOTE.md"

@@ -1,0 +1,44 @@
+{
+  "release": "AF-v6.2",
+  "verified_at_utc": "2026-08-15T09:00:00Z",
+  "purpose": "Verify contemporary empirical anchors used in the Core Protocol; not a general literature review.",
+  "records": [
+    {
+      "claim_id": "AF-FACT-CLIMATE-2025",
+      "claim": "The 2025 global mean surface temperature was 1.44 °C ± 0.13 °C above 1850-1900; two of eight datasets ranked it second warmest and six ranked it third; 2015-2025 were the eleven warmest years in all eight datasets.",
+      "source": "World Meteorological Organization",
+      "source_date": "2026-01-14",
+      "url": "https://wmo.int/news/media-centre/wmo-confirms-2025-was-one-of-warmest-years-record",
+      "status": "VERIFIED",
+      "boundary": "WMO consolidated analysis of eight datasets; temperature anomaly and ranking, not a causal attribution claim."
+    },
+    {
+      "claim_id": "AF-FACT-POVERTY-2026",
+      "claim": "The World Bank's March 2026 update used a $3.00 per person per day 2021 PPP extreme-poverty line and estimated 10.4% of the global population in extreme poverty in 2024, with a 10.0% nowcast for 2026.",
+      "source": "World Bank",
+      "source_date": "2026-03-26",
+      "url": "https://blogs.worldbank.org/en/opendata/march-2026-global-poverty-update-from-the-world-bank--new-data-a",
+      "status": "VERIFIED",
+      "boundary": "The 2026 figure is a nowcast based on January 2026 macroeconomic projections and may be revised."
+    },
+    {
+      "claim_id": "AF-FACT-CONFLICT-2025",
+      "claim": "PRIO reported 65 active conflicts across 35 countries in 2025 and more than 255,000 fatalities in its global conflict overview.",
+      "source": "Peace Research Institute Oslo",
+      "source_date": "2026",
+      "url": "https://www.prio.org/publications/14802",
+      "status": "VERIFIED",
+      "boundary": "The fatality total spans the report's organized-violence categories and should not be relabelled as battle deaths alone."
+    },
+    {
+      "claim_id": "AF-FACT-GFS-2025",
+      "claim": "The Global Flourishing Study is a longitudinal panel study of over 200,000 participants in 22 geographically and culturally diverse countries.",
+      "source": "Nature Mental Health",
+      "source_date": "2025",
+      "url": "https://www.nature.com/articles/s44220-025-00423-5",
+      "status": "VERIFIED",
+      "boundary": "Study-profile description; it does not validate AF or establish a universal definition of flourishing."
+    }
+  ],
+  "scope_boundary": "Verification establishes that the cited load-bearing contemporary statements match the named sources on the verification date. It does not establish the sources' broader causal interpretations, future stability, or AF's validity."
+}

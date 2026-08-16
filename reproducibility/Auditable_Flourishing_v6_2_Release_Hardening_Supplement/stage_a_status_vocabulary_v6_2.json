@@ -1,0 +1,110 @@
+{
+  "schema_version": "6.2",
+  "public_statuses": [
+    {
+      "public": "Stage-A admissible - scoped",
+      "token": "stage_a_admissible_scoped",
+      "class": "positive",
+      "boundary": "Six recognized adequate findings; scoped eligibility only"
+    },
+    {
+      "public": "Stage-A admissible - scoped, control-dependent",
+      "token": "stage_a_admissible_scoped_control_dependent",
+      "class": "positive_conditional",
+      "boundary": "Eligibility depends on named, owned, monitored, expiring and requalified controls"
+    },
+    {
+      "public": "Stage-A non-admissible - patchable",
+      "token": "stage_a_non_admissible_patchable",
+      "class": "negative_patchable",
+      "boundary": "At least one material patchable defect"
+    },
+    {
+      "public": "Stage-A non-admissible - unpatchable for stated claim",
+      "token": "stage_a_non_admissible_unpatchable_for_stated_claim",
+      "class": "negative_unpatchable",
+      "boundary": "The stated claim cannot survive the defect"
+    },
+    {
+      "public": "Indeterminate - insufficient evidence",
+      "token": "indeterminate_insufficient_evidence",
+      "class": "indeterminate",
+      "boundary": "Neither positive nor negative conclusion is warranted"
+    },
+    {
+      "public": "Protocol refusal to evaluate",
+      "token": "protocol_refusal_to_evaluate",
+      "class": "refusal",
+      "boundary": "Administration, capacity, access, authority, vocabulary or another prerequisite is invalid"
+    },
+    {
+      "public": "Out of scope",
+      "token": "out_of_scope",
+      "class": "administrative",
+      "boundary": "No conformity inference"
+    },
+    {
+      "public": "Withdrawn",
+      "token": "withdrawn",
+      "class": "administrative",
+      "boundary": "No conformity inference"
+    },
+    {
+      "public": "Not reviewed",
+      "token": "not_reviewed",
+      "class": "administrative",
+      "boundary": "No valid review occurred"
+    }
+  ],
+  "criterion_states": [
+    {
+      "public": "Adequate for scope",
+      "token": "adequate_for_scope"
+    },
+    {
+      "public": "Adequate - control-dependent",
+      "token": "adequate_control_dependent"
+    },
+    {
+      "public": "Indeterminate",
+      "token": "indeterminate"
+    },
+    {
+      "public": "Material defect - patchable",
+      "token": "material_defect_patchable"
+    },
+    {
+      "public": "Material defect - unpatchable for stated claim",
+      "token": "material_defect_unpatchable_for_stated_claim"
+    },
+    {
+      "public": "Not reviewed",
+      "token": "not_reviewed"
+    }
+  ],
+  "migration_aliases": [
+    {
+      "v5_8_token": "stage_a_admissible_scoped_with_verified_controls",
+      "v6_2_token": "stage_a_admissible_scoped_control_dependent",
+      "rule": "Preserve original record; append versioned migration provenance; never rewrite silently."
+    },
+    {
+      "v5_8_token": "adequate_with_verified_controls",
+      "v6_2_token": "adequate_control_dependent",
+      "rule": "Preserve original record; append versioned migration provenance; never rewrite silently."
+    }
+  ],
+  "routing_precedence": [
+    "protocol_refusal_to_evaluate for invalid or incomplete prerequisites",
+    "stage_a_non_admissible_unpatchable_for_stated_claim for any established unpatchable material defect",
+    "stage_a_non_admissible_patchable for any established patchable material defect when no unpatchable defect exists",
+    "indeterminate_insufficient_evidence for unresolved protected floor, insufficient evidence, or indeterminate/not-reviewed criterion when no established material defect exists",
+    "stage_a_admissible_scoped_control_dependent when all criteria are adequate and at least one is control-dependent",
+    "stage_a_admissible_scoped only for six adequate_for_scope findings"
+  ],
+  "release": "AF-v6.2",
+  "stable_component_ids": {
+    "stage_b_dimensions": "AF-SB12-v5.6",
+    "stage_b_relation_record": "AF-SB-RELATION-v6.0"
+  }
+}

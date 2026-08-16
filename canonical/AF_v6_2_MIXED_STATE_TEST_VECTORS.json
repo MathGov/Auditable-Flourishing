@@ -1,0 +1,34 @@
+[
+  {
+    "test_id": "AF62-T01",
+    "prerequisite": "MISSING",
+    "known_defect": "UNPATCHABLE",
+    "other_evidence": "UNRESOLVED",
+    "expected_decision_status": "PROTOCOL_REFUSAL",
+    "expected_retained_flag": "KNOWN_UNPATCHABLE_RETAINED"
+  },
+  {
+    "test_id": "AF62-T02",
+    "prerequisite": "SATISFIED",
+    "known_defect": "UNPATCHABLE",
+    "other_evidence": "UNRESOLVED",
+    "expected_decision_status": "UNPATCHABLE_DEFECT",
+    "expected_retained_flag": "OTHER_CRITERION_UNRESOLVED"
+  },
+  {
+    "test_id": "AF62-T03",
+    "prerequisite": "SATISFIED",
+    "known_defect": "PATCHABLE",
+    "other_evidence": "CONFLICTING",
+    "expected_decision_status": "PATCHABLE_DEFECT",
+    "expected_retained_flag": "CONFLICT_RETAINED"
+  },
+  {
+    "test_id": "AF62-T04",
+    "prerequisite": "SATISFIED",
+    "known_defect": "NONE",
+    "other_evidence": "UNRESOLVED",
+    "expected_decision_status": "INDETERMINATE",
+    "expected_retained_flag": "UNRESOLVED"
+  }
+]

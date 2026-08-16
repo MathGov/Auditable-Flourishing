@@ -1,0 +1,23 @@
+{
+  "proposal_id": "P-001",
+  "comparison_id": "CMP-001",
+  "candidate_id": "A",
+  "dimension": "Audit completeness",
+  "recorded_category": 4,
+  "proposed_category": 3,
+  "anchor_conflict": "Independent replay is narrower than the category-4 anchor.",
+  "evidence_ref": "EVID-42",
+  "material_to_relation": "yes",
+  "proposer_id": "R-01",
+  "second_reviewer_id": "R-03",
+  "adjudicator_id": null,
+  "admission_status": "admitted",
+  "admission_reason": "Second independent reviewer confirms an evidence-supported anchor tension.",
+  "dependence_group_id": null,
+  "reversal_capable": "no",
+  "base_relation": "a_dominates_b",
+  "perturbed_relation": "a_dominates_b",
+  "appeal_status": "not_appealed",
+  "duplicate_or_strategic_flag": false,
+  "record_version": "AF-SB-RELATION-v6.0"
+}

@@ -1,0 +1,9 @@
+model,dimensions,rho,draws,seed,numpy_version,bit_generator,rate,standard_error,ci95_lower,ci95_upper
+five_category_independent_exact,4,0.0,exact,not_applicable,2.3.5,not_applicable,0.256,0.0,0.256,0.256
+five_category_independent_exact,6,0.0,exact,not_applicable,2.3.5,not_applicable,0.09318399999999998,0.0,0.09318399999999998,0.09318399999999998
+five_category_independent_exact,8,0.0,exact,not_applicable,2.3.5,not_applicable,0.03358719999999999,0.0,0.03358719999999999,0.03358719999999999
+five_category_independent_exact,12,0.0,exact,not_applicable,2.3.5,not_applicable,0.004353556479999998,0.0,0.004353556479999998,0.004353556479999998
+mixed_restriction_exact,12,0.0,exact,not_applicable,2.3.5,not_applicable,0.013285224999999996,0.0,0.013285224999999996,0.013285224999999996
+binary_restriction_exact,12,0.0,exact,not_applicable,2.3.5,not_applicable,0.06286442279815674,0.0,0.06286442279815674,0.06286442279815674
+five_category_gaussian_copula,12,0.3,500000,20260725,2.3.5,PCG64,0.112418,0.00044672182233689906,0.11154242522821968,0.11329357477178033
+five_category_gaussian_copula,12,0.6,500000,20260725,2.3.5,PCG64,0.344388,0.000671989442559926,0.34307090069258256,0.3457050993074175

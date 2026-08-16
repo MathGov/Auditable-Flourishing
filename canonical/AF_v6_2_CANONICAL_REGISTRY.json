@@ -1,0 +1,101 @@
+{
+  "$schema": "./AF_v6_2_case_record.schema.json",
+  "framework": "Auditable Flourishing",
+  "package_version": "6.2",
+  "release_timestamp_utc": "2026-08-15T09:00:00Z",
+  "stable_components": {
+    "stage_b_dimensions": "AF-SB12-v5.6",
+    "stage_b_relation_semantics": "AF-SB-RELATION-v6.0"
+  },
+  "three_axis_record": {
+    "decision_status": [
+      "PROTOCOL_REFUSAL",
+      "UNPATCHABLE_DEFECT",
+      "PATCHABLE_DEFECT",
+      "INDETERMINATE",
+      "CONTROL_DEPENDENT",
+      "ADMISSIBLE",
+      "NON_MATERIAL"
+    ],
+    "evidence_state": [
+      "ESTABLISHED",
+      "UNRESOLVED",
+      "CONFLICTING",
+      "STALE",
+      "OUTSIDE_VALIDITY_DOMAIN",
+      "NOT_APPLICABLE"
+    ],
+    "review_state": [
+      "UNREVIEWED",
+      "INDEPENDENTLY_REVIEWED",
+      "ADJUDICATED",
+      "APPEALED",
+      "CLOSED"
+    ]
+  },
+  "precedence": [
+    "PROTOCOL_REFUSAL",
+    "UNPATCHABLE_DEFECT",
+    "PATCHABLE_DEFECT",
+    "INDETERMINATE",
+    "CONTROL_DEPENDENT",
+    "ADMISSIBLE",
+    "NON_MATERIAL"
+  ],
+  "non_erasure_invariant": {
+    "rule": "Established material defects remain in the versioned audit record unless a cited, reviewable correction changes the evidence.",
+    "known_defect_cannot_be_masked_by": [
+      "missing_prerequisite",
+      "unresolved_other_criterion",
+      "consensus",
+      "adjudication",
+      "unsupported_control"
+    ]
+  },
+  "perturbation_replay": {
+    "required_fields": [
+      "candidate",
+      "dimension",
+      "alternative_category",
+      "anchor_conflict",
+      "evidence",
+      "materiality"
+    ],
+    "anti_inflation_rejections": [
+      "duplicate",
+      "immaterial",
+      "unsupported",
+      "strategic_timing"
+    ],
+    "anti_suppression": "Supported dissent requires reasoned disposition and access to appeal.",
+    "relation_set": [
+      "DOMINANCE",
+      "CROSSING_INCOMPARABLE",
+      "TIE_INSTABILITY",
+      "NON_DECISIVE",
+      "REFUSAL_INVALID_PREREQUISITE"
+    ]
+  },
+  "stage_b_controls": [
+    "frozen_profile",
+    "crossing_report",
+    "sensitivity_report",
+    "correlation_double_counting_check",
+    "supported_dissent_replay"
+  ],
+  "claim_boundary": {
+    "internal_verifier_establishes": [
+      "artifact_integrity",
+      "specified_control_conformance"
+    ],
+    "does_not_establish": [
+      "empirical_validity",
+      "constitutional_legitimacy",
+      "legal_compliance",
+      "ethical_certification",
+      "procurement_approval",
+      "deployment_authority",
+      "proof_flourishing_occurred"
+    ]
+  }
+}

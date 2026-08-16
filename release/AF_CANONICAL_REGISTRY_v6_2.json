@@ -1,0 +1,244 @@
+{
+  "registry_schema": "AF-CANONICAL-REGISTRY-v1",
+  "release": {
+    "id": "AF-v6.2",
+    "version": "6.2",
+    "released_at_utc": "2026-08-15T09:00:00Z",
+    "supersedes": "AF-v6.0",
+    "status": "master specification frozen; publication-integrity and provenance closure complete; Phase 0 design-ready; external validation open"
+  },
+  "change_class": "minor release: publication integrity, provenance, verification, and deposit readiness; no normative semantic expansion",
+  "normative_authority": {
+    "controlling_source": "publication/Auditable_Flourishing_v6_2_Core_Protocol.md",
+    "rendered_equivalents": [
+      "publication/Auditable_Flourishing_v6_2_Core_Protocol.docx",
+      "publication/Auditable_Flourishing_v6_2_Core_Protocol.pdf"
+    ],
+    "conflict_rule": "The Core Protocol controls. A delegated companion controls only within its named scope. Any unresolved cross-artifact conflict fails closed to recorded indeterminacy or protocol refusal; it is never silently reconciled.",
+    "registry_boundary": "This registry exposes and binds canonical content. It does not create or override normative authority."
+  },
+  "delegated_companions": {
+    "Stage A operational anchors": "publication/Stage_A_Operational_Anchors_v6_2.md",
+    "constitutional legitimacy and stewardship": "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.md",
+    "legal, rights, and authorization boundary": "publication/Legal_Rights_and_Authorization_Note_v6_2.md",
+    "measurement and constructs": "publication/Measurement_and_Construct_Handbook_v6_2.md",
+    "challenge administration": "publication/Challenge_Administration_Handbook_v6_2.md",
+    "external validation, burden, and decision value": "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.md",
+    "Phase 0 design": "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.md",
+    "reviewer training and rating deposits": "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.md",
+    "scenario governance and calibration": "publication/Scenario_Governance_and_Calibration_Standard_v6_2.md"
+  },
+  "derivative_artifacts": {
+    "methods_article": {
+      "path": "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.md",
+      "authority": "scholarly derivative; cannot override Core"
+    },
+    "workbook": {
+      "path": "reproducibility/AF_v6_2_External_Pilot_Aggregation_Workbook.xlsx",
+      "authority": "aggregation and analysis instrument; not immutable deposit system or authorization"
+    },
+    "reference_logic": {
+      "path": "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/reference_logic_v6_2.py",
+      "authority": "illustrative executable semantics; cannot issue legal, moral, community, safety, procurement, or deployment authority"
+    }
+  },
+  "stable_component_identifiers": {
+    "stage_b_dimensions": "AF-SB12-v5.6",
+    "stage_b_relation_record": "AF-SB-RELATION-v6.0",
+    "constitutional_legitimacy_ladder": "CL0-CL6"
+  },
+  "stage_a": {
+    "criteria": [
+      "C0 Inspectability",
+      "C1 Rights protection",
+      "C2 Auditability",
+      "C3 Measurement integrity",
+      "C4 Corrigibility",
+      "C5 Refusal authority"
+    ],
+    "criterion_states": [
+      {
+        "public": "Adequate for scope",
+        "token": "adequate_for_scope"
+      },
+      {
+        "public": "Adequate - control-dependent",
+        "token": "adequate_control_dependent"
+      },
+      {
+        "public": "Indeterminate",
+        "token": "indeterminate"
+      },
+      {
+        "public": "Material defect - patchable",
+        "token": "material_defect_patchable"
+      },
+      {
+        "public": "Material defect - unpatchable for stated claim",
+        "token": "material_defect_unpatchable_for_stated_claim"
+      },
+      {
+        "public": "Not reviewed",
+        "token": "not_reviewed"
+      }
+    ],
+    "public_statuses": [
+      {
+        "public": "Stage-A admissible - scoped",
+        "token": "stage_a_admissible_scoped",
+        "class": "positive"
+      },
+      {
+        "public": "Stage-A admissible - scoped, control-dependent",
+        "token": "stage_a_admissible_scoped_control_dependent",
+        "class": "positive_conditional"
+      },
+      {
+        "public": "Stage-A non-admissible - patchable",
+        "token": "stage_a_non_admissible_patchable",
+        "class": "negative_patchable"
+      },
+      {
+        "public": "Stage-A non-admissible - unpatchable for stated claim",
+        "token": "stage_a_non_admissible_unpatchable_for_stated_claim",
+        "class": "negative_unpatchable"
+      },
+      {
+        "public": "Indeterminate - insufficient evidence",
+        "token": "indeterminate_insufficient_evidence",
+        "class": "indeterminate"
+      },
+      {
+        "public": "Protocol refusal to evaluate",
+        "token": "protocol_refusal_to_evaluate",
+        "class": "refusal"
+      },
+      {
+        "public": "Out of scope",
+        "token": "out_of_scope",
+        "class": "administrative"
+      },
+      {
+        "public": "Withdrawn",
+        "token": "withdrawn",
+        "class": "administrative"
+      },
+      {
+        "public": "Not reviewed",
+        "token": "not_reviewed",
+        "class": "administrative"
+      }
+    ],
+    "binding_precedence": [
+      "Protocol refusal to evaluate for invalid, incomplete, unrecognized, unauthorized, or infeasible prerequisites.",
+      "Stage-A non-admissible - unpatchable for stated claim for any established unpatchable material defect.",
+      "Stage-A non-admissible - patchable for any established patchable material defect when no established unpatchable defect exists.",
+      "Indeterminate - insufficient evidence for unresolved protected-floor, burden, or criterion evidence when no established material defect exists.",
+      "Stage-A admissible - scoped, control-dependent when all six criteria are adequate and at least one depends on named verified controls.",
+      "Stage-A admissible - scoped only for six Adequate for scope findings."
+    ],
+    "non_compensation": "A material C0-C5 defect cannot be offset by strength elsewhere."
+  },
+  "stage_b": {
+    "component_id": "AF-SB12-v5.6",
+    "dimensions": [
+      {
+        "order": 1,
+        "dimension": "Rights robustness",
+        "floor_tier": "F"
+      },
+      {
+        "order": 2,
+        "dimension": "Audit completeness",
+        "floor_tier": "F"
+      },
+      {
+        "order": 3,
+        "dimension": "Measurement validity",
+        "floor_tier": "P"
+      },
+      {
+        "order": 4,
+        "dimension": "Uncertainty discipline",
+        "floor_tier": "P"
+      },
+      {
+        "order": 5,
+        "dimension": "Corrigibility",
+        "floor_tier": "F"
+      },
+      {
+        "order": 6,
+        "dimension": "Anti-gaming resilience",
+        "floor_tier": "P"
+      },
+      {
+        "order": 7,
+        "dimension": "Non-domination",
+        "floor_tier": "P"
+      },
+      {
+        "order": 8,
+        "dimension": "Refusal quality",
+        "floor_tier": "F"
+      },
+      {
+        "order": 9,
+        "dimension": "Tail-risk adequacy",
+        "floor_tier": "P"
+      },
+      {
+        "order": 10,
+        "dimension": "Ecological adequacy",
+        "floor_tier": "P"
+      },
+      {
+        "order": 11,
+        "dimension": "Institutional compatibility",
+        "floor_tier": "P"
+      },
+      {
+        "order": 12,
+        "dimension": "Reproducibility and public challenge",
+        "floor_tier": "P"
+      }
+    ],
+    "relation_component_id": "AF-SB-RELATION-v6.0",
+    "relations": [
+      "dominance",
+      "incomparable",
+      "non-decisive",
+      "refusal to compare"
+    ],
+    "arithmetic_boundary": "Ordinal categories are never summed, averaged, differenced, or converted into a pseudo-metric score."
+  },
+  "evidence_boundary": {
+    "established": [
+      "internal specification closure",
+      "artifact integrity for the exact hash-pinned package",
+      "hostile-case-hardened aggregation instrument",
+      "Phase 0 study design"
+    ],
+    "open": [
+      "external inter-reviewer reliability",
+      "construct and predictive validity",
+      "architecture fairness",
+      "decision value",
+      "plural constitutional legitimacy",
+      "live-use safety",
+      "legal conformity",
+      "community legitimacy",
+      "deployment authorization",
+      "evidence that flourishing occurred"
+    ]
+  },
+  "verification": {
+    "root_verifier": "verify_release_v6_2.py",
+    "hash_inventories": [
+      "SHA256SUMS.txt",
+      "SHA256SUMS.json"
+    ],
+    "release_manifest": "release/RELEASE_MANIFEST_v6_2.json",
+    "verification_record": "release/RELEASE_VERIFICATION_RECORD_v6_2.json"
+  }
+}

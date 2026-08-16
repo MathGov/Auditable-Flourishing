@@ -1,0 +1,22 @@
+{
+  "title": "Auditable Flourishing: A Non-Compensatory Assurance Protocol for Frameworks Claiming to Support Flourishing",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "Version 6.2 master specification, publication-integrity closure, and Phase 0 design package.",
+  "creators": [
+    {
+      "name": "McGaughran, James",
+      "orcid": "0009-0005-3324-7290"
+    }
+  ],
+  "version": "6.2",
+  "publication_date": "2026-08-15",
+  "license": "other-open",
+  "keywords": [
+    "assurance",
+    "flourishing",
+    "rights",
+    "auditability",
+    "framework evaluation"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "release": "AF-v6.2",
+  "released_at_utc": "2026-08-15T09:00:00Z",
+  "supersedes": "AF-v6.0",
+  "status": "master specification frozen; publication-integrity and provenance closure complete; Phase 0 design-ready; external validation open",
+  "change_class": "minor; no normative semantic expansion",
+  "primary_artifacts": {
+    "master_docx": "publication/Auditable_Flourishing_v6_2_Core_Protocol.docx",
+    "master_pdf": "publication/Auditable_Flourishing_v6_2_Core_Protocol.pdf",
+    "master_markdown": "publication/Auditable_Flourishing_v6_2_Core_Protocol.md",
+    "workbook": "reproducibility/AF_v6_2_External_Pilot_Aggregation_Workbook.xlsx",
+    "supplement": "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement.zip",
+    "canonical_registry": "release/AF_CANONICAL_REGISTRY_v6_2.json"
+  },
+  "publication_triplets": 12,
+  "release_doc_triplets": 3,
+  "figures": 14,
+  "verification": "verify_release_v6_2.py",
+  "v6_2_closure": {
+    "canonical_registry": true,
+    "artifact_authority_policy": true,
+    "provenance_deduplicated": true,
+    "official_source_fact_record": true,
+    "canonical_af_sb12": true,
+    "stage_a_precedence": true,
+    "docx_md_pdf_critical_semantics": true,
+    "current_release_bindings": true,
+    "workbook_release_binding": true,
+    "portable_root_verifier": true,
+    "publication_graphics_hardened": true,
+    "page_balance_polished": true
+  },
+  "visual_hardening": {
+    "status": "PASS",
+    "graphics_corrected": 9,
+    "corrected_document_pages": 163,
+    "complete_family_pages": 191,
+    "semantic_change": false,
+    "qa_record": "release/TABLE_AND_VISUAL_QA_RECORD_v6_2.json"
+  },
+  "manifest_updated_at_utc": "2026-08-15T09:00:00Z"
+}

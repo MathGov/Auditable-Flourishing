@@ -1,0 +1,387 @@
+{
+  "release": "AF-v6.2",
+  "status": "PASS",
+  "docx_files": 15,
+  "pdf_files": 15,
+  "docx_container_results": [
+    {
+      "path": "publication/Auditable_Flourishing_v6_2_Core_Protocol.docx",
+      "size_bytes": 1586963,
+      "sha256": "167ea9b015ed4cf7da50a311aa148b5d9659047779e885415d0674f142fa269d",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 51,
+      "hyperlink_count": 207,
+      "bookmark_count": 275,
+      "embedded_media_count": 11,
+      "described_drawing_count": 11
+    },
+    {
+      "path": "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.docx",
+      "size_bytes": 31192,
+      "sha256": "5615a858be7d2ebd90c46185624133a641a26be8288bc0f513751e590a889d3b",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 2,
+      "hyperlink_count": 0,
+      "bookmark_count": 55,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Challenge_Administration_Handbook_v6_2.docx",
+      "size_bytes": 23285,
+      "sha256": "3140c9fdcc62ea32edacb9ef0574a7be181a4e394714ca964cb75e3ba746917d",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 0,
+      "hyperlink_count": 21,
+      "bookmark_count": 43,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.docx",
+      "size_bytes": 18841,
+      "sha256": "b23f57575a6c9cd9bf8cd6bd587e5add88002e310e7d982bac191867a64ccfc8",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 24,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.docx",
+      "size_bytes": 23025,
+      "sha256": "972bf66041a6dcd49d336b7c6474c45d3eed23e9827b97340309132e32632d13",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 27,
+      "bookmark_count": 55,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Legal_Rights_and_Authorization_Note_v6_2.docx",
+      "size_bytes": 27164,
+      "sha256": "2c1fcc3b544cff92927bb0344dd9b6a82bf68fbe8afdb253d25d8b9de298b0e7",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 2,
+      "hyperlink_count": 24,
+      "bookmark_count": 51,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/MASTER_REFERENCE_CATALOG_v6_2.docx",
+      "size_bytes": 24974,
+      "sha256": "41e11e2c9792b9fb11a420df6c046278b4441b18cd0ceb71065c77c957e0816e",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 0,
+      "hyperlink_count": 42,
+      "bookmark_count": 4,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Measurement_and_Construct_Handbook_v6_2.docx",
+      "size_bytes": 395102,
+      "sha256": "4a74e7b89c77938ec0ea787c3405781d8cea5bd2ccd83f3246bbe2b02435e382",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 9,
+      "hyperlink_count": 30,
+      "bookmark_count": 71,
+      "embedded_media_count": 2,
+      "described_drawing_count": 2
+    },
+    {
+      "path": "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.docx",
+      "size_bytes": 18574,
+      "sha256": "a3f9d38d4b388d683f29bbf2696e75718ffb0f15cc9de3f8b47c17d323ed9523",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 28,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.docx",
+      "size_bytes": 18717,
+      "sha256": "89be1a8d535898169a5b4c960dc0cffd63c34c2788fb8ebe7d3331679fcd7240",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 28,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Scenario_Governance_and_Calibration_Standard_v6_2.docx",
+      "size_bytes": 16830,
+      "sha256": "faf446c06fcf1994573859e9e46fa162afa60165544d61ddd5d867e0512665ee",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 0,
+      "hyperlink_count": 0,
+      "bookmark_count": 22,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "publication/Stage_A_Operational_Anchors_v6_2.docx",
+      "size_bytes": 21158,
+      "sha256": "14225e5dd334d2183ebf1021f2d414f656294b090cddd58545ccf594908d830e",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 7,
+      "hyperlink_count": 0,
+      "bookmark_count": 30,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.docx",
+      "size_bytes": 41632,
+      "sha256": "4b0ed1237cf1385e430c6571a898751333063e5141ef3a2a3aa49bcbda78768a",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 0,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.docx",
+      "size_bytes": 41352,
+      "sha256": "acede5fc5a0d56f7b370e336f36f3f5d76cc8518979f7fcbf2f8f745386f3064",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 0,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    },
+    {
+      "path": "release/VALIDATION_STATUS_v6_2.docx",
+      "size_bytes": 41514,
+      "sha256": "be46ea14893cee2ba3ffb58ae73ce58dab2af609199e7c0d848ae2c1b330a295",
+      "crc_pass": true,
+      "genuine_ooxml": true,
+      "table_count": 1,
+      "hyperlink_count": 0,
+      "bookmark_count": 0,
+      "embedded_media_count": 0,
+      "described_drawing_count": 0
+    }
+  ],
+  "pdf_pages": [
+    {
+      "path": "publication/Auditable_Flourishing_v6_2_Core_Protocol.pdf",
+      "pages": 104,
+      "size_bytes": 3217401,
+      "sha256": "75525f371bc53ebdc32c96f67f1d58adf411c418dbec81b14c939c9be9b0df08",
+      "link_annotations": 246,
+      "outline_entries": 114
+    },
+    {
+      "path": "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.pdf",
+      "pages": 12,
+      "size_bytes": 198007,
+      "sha256": "f77faabbff05a183c276053cef6fccc9f4f65f77900c99926360bc74f9339e5e",
+      "link_annotations": 0,
+      "outline_entries": 31
+    },
+    {
+      "path": "publication/Challenge_Administration_Handbook_v6_2.pdf",
+      "pages": 7,
+      "size_bytes": 167468,
+      "sha256": "c7534871cdbb794839bdf44c2f092f4414c3b4a2abcab0dcb7ea46b1076abc70",
+      "link_annotations": 21,
+      "outline_entries": 22
+    },
+    {
+      "path": "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.pdf",
+      "pages": 4,
+      "size_bytes": 92039,
+      "sha256": "0604564d6177b74bba793d03fc06eb4093956cda5686dc0e1aad5c398ee0eeff",
+      "link_annotations": 0,
+      "outline_entries": 12
+    },
+    {
+      "path": "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.pdf",
+      "pages": 7,
+      "size_bytes": 164621,
+      "sha256": "e54fc78dea00625d94f15ab16d567826eca3c7e78a3f9690a10526dc6d17b031",
+      "link_annotations": 27,
+      "outline_entries": 28
+    },
+    {
+      "path": "publication/Legal_Rights_and_Authorization_Note_v6_2.pdf",
+      "pages": 8,
+      "size_bytes": 170032,
+      "sha256": "eaff9be9fd29efb6d1a5ee3a60ad0cfc1d4e7be67122c3aafd381026bb05a950",
+      "link_annotations": 24,
+      "outline_entries": 25
+    },
+    {
+      "path": "publication/MASTER_REFERENCE_CATALOG_v6_2.pdf",
+      "pages": 6,
+      "size_bytes": 101731,
+      "sha256": "9f8fbfb77040bab0a3c7f5ebd3716cedd405979c99ab60fb5dd22310c340ff3c",
+      "link_annotations": 47,
+      "outline_entries": 2
+    },
+    {
+      "path": "publication/Measurement_and_Construct_Handbook_v6_2.pdf",
+      "pages": 19,
+      "size_bytes": 627111,
+      "sha256": "791924c82edb16d43d3c2cdbf260825e93c0fd406f78a360c17c08a96a1b17eb",
+      "link_annotations": 29,
+      "outline_entries": 31
+    },
+    {
+      "path": "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.pdf",
+      "pages": 4,
+      "size_bytes": 104646,
+      "sha256": "1deffc612b2d1ae3fee90118827907ea574e86c6407a7da1e291b945307abbf1",
+      "link_annotations": 0,
+      "outline_entries": 14
+    },
+    {
+      "path": "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.pdf",
+      "pages": 4,
+      "size_bytes": 97554,
+      "sha256": "9d86e41440dbb059d48faeeb410c9fe870c32c61ae0ea2ae79ec6084b06fde26",
+      "link_annotations": 0,
+      "outline_entries": 14
+    },
+    {
+      "path": "publication/Scenario_Governance_and_Calibration_Standard_v6_2.pdf",
+      "pages": 3,
+      "size_bytes": 64759,
+      "sha256": "5c4729597144bbe626894eda3bea98e05981838f2a9e10ac8f51d80d5d96484a",
+      "link_annotations": 0,
+      "outline_entries": 11
+    },
+    {
+      "path": "publication/Stage_A_Operational_Anchors_v6_2.pdf",
+      "pages": 7,
+      "size_bytes": 141002,
+      "sha256": "70a2dafbfb1c27c0e97e4604692831b0eb286bc84007e599b9dbf3ac7b7c8253",
+      "link_annotations": 0,
+      "outline_entries": 16
+    },
+    {
+      "path": "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.pdf",
+      "pages": 2,
+      "size_bytes": 63410,
+      "sha256": "e3074eddf5a0829401bd11ae50b6a904339d4247561146abd216dfafc084fcb2",
+      "link_annotations": 0,
+      "outline_entries": 4
+    },
+    {
+      "path": "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.pdf",
+      "pages": 2,
+      "size_bytes": 54353,
+      "sha256": "7a38cc8b363a4e3b97561f0da1c3460eea7c1d1fb2e6d3bb0a5b98059db3c744",
+      "link_annotations": 0,
+      "outline_entries": 5
+    },
+    {
+      "path": "release/VALIDATION_STATUS_v6_2.pdf",
+      "pages": 2,
+      "size_bytes": 67773,
+      "sha256": "10ce242099c7148645ffa4ef5ab7287d6c7991d8f97f424dbe1d6ea90c66e6c5",
+      "link_annotations": 0,
+      "outline_entries": 5
+    }
+  ],
+  "total_pdf_pages": 191,
+  "total_docx_tables": 78,
+  "total_embedded_media": 13,
+  "drawings_with_descriptive_text": 13,
+  "visual_review": "All 191 final PDF pages are covered by the full-family visual QA history; the nine publication/release DOCX files changed in the final v6.2 publication-sanity pass were rerendered (163 pages) and visually re-inspected, with page-level inspection of the changed version/table/release surfaces. No clipping, overlap, broken tables, missing glyphs, duplicate legacy/current TOC titles, malformed TOC page suffixes, or figure-placement failures remain.",
+  "rendering_method": "Final changed DOCX files were rendered through the canonical LibreOffice-based DOCX workflow to PDF and page PNGs. The PDFs packaged for those nine documents are the exact inspected renderings; unchanged publication PDFs retain the prior passed visual QA.",
+  "core_navigation": {
+    "word_hyperlinks": 207,
+    "word_bookmarks": 275,
+    "pdf_outline_entries": 114,
+    "pdf_link_annotations": 246
+  },
+  "core_accessibility": {
+    "high": 0,
+    "medium": 0,
+    "low": 42
+  },
+  "core_accessibility_boundary": "Low-severity findings are raw URL/DOI display strings in scholarly references only.",
+  "table_boundary": "Final tables were reviewed in rendered output for outer/lower borders, header treatment, padding, row continuation, captions, and figure placement.",
+  "workbook_visual_review": "Read_Me, Dashboard, Stage_A, Rating_Deposits, Perturbation_Register, and Vocabulary were rendered and inspected; controlled vocabulary, ISO-8601 timestamps, exception dashboards, and boundary notices are readable.",
+  "graphics_hardening": {
+    "status": "PASS",
+    "corrected_graphics": [
+      "media/figure_perturbation_replay.png",
+      "media/figure_independence_architecture.png",
+      "media/figure_profiles.png",
+      "media/figure_stage_a_gates.png",
+      "media/figure_validation_ladder.png",
+      "media/figure0b_verdict_boundary.png",
+      "media/figure3.png",
+      "media/figure_cl_ladder.png",
+      "media/measurement_figure2.png"
+    ],
+    "corrected_graphics_count": 9,
+    "corrected_documents": [
+      "publication/Auditable_Flourishing_v6_2_Core_Protocol.docx",
+      "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.docx",
+      "publication/Challenge_Administration_Handbook_v6_2.docx",
+      "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.docx",
+      "publication/Legal_Rights_and_Authorization_Note_v6_2.docx",
+      "publication/Measurement_and_Construct_Handbook_v6_2.docx",
+      "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.docx",
+      "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.docx",
+      "release/VALIDATION_STATUS_v6_2.docx"
+    ],
+    "corrected_document_pages_rendered_and_inspected": 163,
+    "page_balance_polish_core_pages": [
+      80,
+      81,
+      92,
+      93
+    ],
+    "embedded_asset_hash_parity": "PASS",
+    "semantic_or_normative_change": false,
+    "acceptance_criteria": [
+      "all text remains within intended boxes or panels",
+      "no callout or connector obscures a heading or body line",
+      "legible font size, line spacing, and internal padding",
+      "consistent typography, border weight, and panel geometry",
+      "no clipping, missing glyphs, or malformed image placement in rendered pages"
+    ]
+  },
+  "pdf_preflight": {
+    "core": {
+      "pages": 104,
+      "openable": true,
+      "encrypted": false,
+      "likely_scanned": false
+    },
+    "measurement_handbook": {
+      "pages": 19,
+      "openable": true,
+      "encrypted": false,
+      "likely_scanned": false
+    }
+  },
+  "qa_completed_at_utc": "2026-08-15T09:00:00Z"
+}

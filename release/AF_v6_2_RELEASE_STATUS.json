@@ -1,0 +1,29 @@
+{
+  "framework": "Auditable Flourishing",
+  "package_version": "6.2",
+  "release_timestamp_utc": "2026-08-15T09:00:00Z",
+  "status": "COMPLETE_READY_FOR_PUBLICATION_AND_INDEPENDENT_PHASE_0_USE",
+  "claim_boundary": "Internal artifact integrity and specified control conformance only.",
+  "statistics": {
+    "source_zip_sha256": "a8b8068abcacd978a76115ab70fcd773a216c2914abc780190d0dd225a2b5f3c",
+    "feedback_sha256": "d47bc17000ad344af176aed62f38205f198170c22d0888472239ce91ecd82434",
+    "text_files_updated": 52,
+    "markdown_sections_added": 10,
+    "docx_files": 15,
+    "pdf_files": 15,
+    "xlsx_files": 2,
+    "pdf_pages": 191,
+    "docx_inline_shapes": 13,
+    "workbook_formula_cells": 18346,
+    "workbook_validations": 458,
+    "conversion": {
+      "converted": 15,
+      "failed": []
+    }
+  },
+  "stable_components": [
+    "AF-SB12-v5.6",
+    "AF-SB-RELATION-v6.0"
+  ],
+  "publication_pages_verified": 191
+}

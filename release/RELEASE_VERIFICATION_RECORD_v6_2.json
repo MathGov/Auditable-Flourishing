@@ -1,0 +1,50 @@
+{
+  "release": "AF-v6.2",
+  "status": "PASS",
+  "verified_at_utc": "2026-08-15T09:00:00Z",
+  "checks_required": [
+    "inventory",
+    "docx_containers",
+    "pdf_files",
+    "publication_triplets",
+    "canonical_registry",
+    "critical_synchronization",
+    "active_version_binding",
+    "master_navigation",
+    "workbook",
+    "provenance_uniqueness",
+    "external_fact_record",
+    "supplement",
+    "outer_zip_crc",
+    "extracted_replay"
+  ],
+  "directory_preflight": "PASS",
+  "outer_zip_crc": "PASS",
+  "extracted_replay": "PASS",
+  "evidence_files": [
+    "WORKBOOK_VALIDATION_REPORT_v6_2.json",
+    "TABLE_AND_VISUAL_QA_RECORD_v6_2.json",
+    "CORE_ACCESSIBILITY_AUDIT_v6_2.json",
+    "AUDIT_ADJUDICATION_LEDGER_v6_2.json",
+    "AF_CANONICAL_REGISTRY_v6_2.json",
+    "EXTERNAL_FACT_VERIFICATION_RECORD_v6_2.json",
+    "FINAL_VALIDATION_REPORT_v6_2.json"
+  ],
+  "verification_scope": "Exact final AF-v6.2 package after version-reference synchronization, Markdown/TOC cleanup, workbook-copy normalization, supplement verification, publication rendering, 191-page visual QA, checksum regeneration, ZIP CRC testing, and clean-extraction replay.",
+  "evidence_boundary": "Artifact integrity, internal semantic synchronization, and Phase 0 design readiness are verified. Empirical reliability, validity, constitutional legitimacy, legal conformity, and deployment authorization are not established.",
+  "transport_verified_at_utc": "2026-08-15T09:00:00Z",
+  "transport_boundary": "PASS means the archive CRC succeeds and the bundled root verifier passes after clean extraction; the final outer ZIP SHA-256 is distributed as a sidecar and delivery manifest.",
+  "visual_hardening": {
+    "status": "PASS",
+    "graphics_reconstructed": 9,
+    "corrected_document_pages_rendered_and_inspected": 163,
+    "complete_family_pages_verified": 191,
+    "core_page_balance_polish": [
+      80,
+      81,
+      92,
+      93
+    ],
+    "normative_semantic_change": false
+  }
+}

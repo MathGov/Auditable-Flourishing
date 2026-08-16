@@ -1,0 +1,24 @@
+{
+  "release": "AF-v6.2",
+  "released_at_utc": "2026-08-15T09:00:00Z",
+  "supersedes": "AF-v6.0",
+  "change_class": "minor: publication integrity, provenance, verification, and deposit readiness; no normative semantic change",
+  "master_specification": "frozen",
+  "phase_0": "design-ready",
+  "phase_0_materials": "not yet constituted",
+  "empirical_validation": "not established",
+  "constitutional_legitimacy": "CL1 self-assessment; CL2 design materials only",
+  "domain_authorization": "not granted",
+  "canonical_registry": "release/AF_CANONICAL_REGISTRY_v6_2.json",
+  "provenance_status": "deduplicated and accurately labelled",
+  "stable_components": [
+    "AF-SB12-v5.6",
+    "AF-SB-RELATION-v6.0",
+    "CL0-CL6"
+  ],
+  "final_visual_hardening": "PASS",
+  "final_visual_seal_at_utc": "2026-08-15T09:00:00Z",
+  "publication_pages_verified": 191,
+  "publication_graphics_corrected": 9,
+  "normative_semantic_change_from_visual_hardening": false
+}

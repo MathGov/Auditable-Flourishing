@@ -1,0 +1,125 @@
+{
+  "engine": "artifact_tool workbook recalculation plus reference-logic replay",
+  "tests": [
+    {
+      "id": "T1",
+      "condition": "six exact adequate states",
+      "expected": "Stage-A admissible - scoped",
+      "observed": "Stage-A admissible - scoped",
+      "pass": true
+    },
+    {
+      "id": "T2",
+      "condition": "one exact control-dependent state",
+      "expected": "Stage-A admissible - scoped, control-dependent",
+      "observed": "Stage-A admissible - scoped, control-dependent",
+      "pass": true
+    },
+    {
+      "id": "T3",
+      "condition": "en-dash patchable label",
+      "expected": "Protocol refusal to evaluate",
+      "observed": "Protocol refusal to evaluate",
+      "pass": true
+    },
+    {
+      "id": "T4",
+      "condition": "legacy Fail label",
+      "expected": "Protocol refusal to evaluate",
+      "observed": "Protocol refusal to evaluate",
+      "pass": true
+    },
+    {
+      "id": "T5",
+      "condition": "free-text reviewer note",
+      "expected": "Protocol refusal to evaluate",
+      "observed": "Protocol refusal to evaluate",
+      "pass": true
+    },
+    {
+      "id": "T6",
+      "condition": "trailing-space variant",
+      "expected": "Protocol refusal to evaluate",
+      "observed": "Protocol refusal to evaluate",
+      "pass": true
+    },
+    {
+      "id": "T7",
+      "condition": "exact patchable defect",
+      "expected": "Stage-A non-admissible - patchable",
+      "observed": "Stage-A non-admissible - patchable",
+      "pass": true
+    },
+    {
+      "id": "T8",
+      "condition": "blank row",
+      "expected": "blank",
+      "observed": "blank",
+      "pass": true
+    },
+    {
+      "id": "T9",
+      "condition": "partial row",
+      "expected": "Protocol refusal to evaluate",
+      "observed": "Protocol refusal to evaluate",
+      "pass": true
+    },
+    {
+      "id": "T10",
+      "condition": "wrong token in public string",
+      "expected": "INVALID_OR_INCOMPLETE",
+      "observed": "INVALID_OR_INCOMPLETE",
+      "pass": true
+    },
+    {
+      "id": "I1",
+      "condition": "missing frozen scenario-set record",
+      "expected": "Inadequate",
+      "observed": "Inadequate",
+      "pass": true
+    },
+    {
+      "id": "I2",
+      "condition": "undisclosed shared-model rating generation",
+      "expected": "Inadequate",
+      "observed": "Inadequate",
+      "pass": true
+    },
+    {
+      "id": "P1",
+      "condition": "admitted perturbation without independent admission",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true
+    },
+    {
+      "id": "P2",
+      "condition": "duplicate strategic proposal",
+      "expected": "Potential unsupported-perturbation inflation",
+      "observed": "Potential unsupported-perturbation inflation",
+      "pass": true
+    },
+    {
+      "id": "T11",
+      "condition": "unpatchable material defect plus indeterminate criterion",
+      "expected": "Stage-A non-admissible - unpatchable for stated claim",
+      "observed": "Stage-A non-admissible - unpatchable for stated claim",
+      "pass": true
+    },
+    {
+      "id": "T12",
+      "condition": "patchable material defect plus indeterminate criterion",
+      "expected": "Stage-A non-admissible - patchable",
+      "observed": "Stage-A non-admissible - patchable",
+      "pass": true
+    },
+    {
+      "id": "T13",
+      "condition": "unpatchable material defect plus unresolved protected-floor evidence",
+      "expected": "Stage-A non-admissible - unpatchable for stated claim",
+      "observed": "Stage-A non-admissible - unpatchable for stated claim",
+      "pass": true
+    }
+  ],
+  "routing_precedence": "invalid prerequisites -> established unpatchable defect -> established patchable defect -> unresolved/indeterminate evidence -> control-dependent admissibility -> plain admissibility"
+}

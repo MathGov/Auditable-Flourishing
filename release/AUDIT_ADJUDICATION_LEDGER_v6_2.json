@@ -1,0 +1,32 @@
+{
+  "release": "AF-v6.2",
+  "source_audits": [
+    "provenance/AF_v5_9_Independent_Audit_for_v6_0.md",
+    "provenance/Claude_v6_0_Pre_Correction_Review_2026-08-13.md"
+  ],
+  "adjudication_principle": "Implement only findings reproduced against the complete official package or changes that create a stronger inspectable boundary.",
+  "implemented": [
+    "AF61-01",
+    "AF61-02",
+    "AF61-03",
+    "AF61-04",
+    "AF61-05",
+    "AF61-06",
+    "AF61-07",
+    "AF61-08"
+  ],
+  "rejected_or_modified": [
+    {
+      "claim": "Remove Stage B",
+      "disposition": "Rejected; retain as defining provisional comparison specification; empirically sequence after Stage A if needed."
+    },
+    {
+      "claim": "Multiply marginal criterion performance",
+      "disposition": "Rejected as controlling inference; estimate joint performance directly under observed or explicit dependence."
+    },
+    {
+      "claim": "Rename stable component IDs to release v6.2",
+      "disposition": "Rejected; release and component versions are distinct."
+    }
+  ]
+}

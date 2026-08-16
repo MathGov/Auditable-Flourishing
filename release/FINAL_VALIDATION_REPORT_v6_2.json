@@ -1,0 +1,63 @@
+{
+  "release": "AF-v6.2",
+  "status": "PASS",
+  "verification_boundary": "Artifact integrity and internal synchronization only; not empirical validation, legal conformity, moral certification, or deployment authorization.",
+  "checks": [
+    {
+      "check": "root_inventory",
+      "status": "PASS",
+      "detail": "119 files bound by size and SHA-256"
+    },
+    {
+      "check": "document_containers_and_triplets",
+      "status": "PASS",
+      "detail": "15 genuine OOXML DOCX, 15 valid PDFs, 12 publication triplets and 3 release triplets"
+    },
+    {
+      "check": "canonical_registry",
+      "status": "PASS",
+      "detail": "release, criterion states, nine public statuses, six-step precedence, AF-SB12, and stable component identifiers agree"
+    },
+    {
+      "check": "critical_synchronization",
+      "status": "PASS",
+      "detail": "Core/Methods/Anchors Markdown and DOCX agree on AF-SB12, floor tiers, evidence-maturity separation, Stage A precedence, labels, and stable relation history"
+    },
+    {
+      "check": "active_version_binding",
+      "status": "PASS",
+      "detail": "active filenames and artifact pointers are v6.2; historical/provenance and stable component identifiers remain explicitly bounded"
+    },
+    {
+      "check": "master_navigation",
+      "status": "PASS",
+      "detail": "Core Word links=207; bookmarks=275; update-on-open enabled; companion TOCs clean"
+    },
+    {
+      "check": "workbook_integrity",
+      "status": "PASS",
+      "detail": "19 sheets; formulas=9173; list validations=163; inert=0; full recalculation on load; Stage A precedence, release binding, ISO time, and byte-identical copies verified"
+    },
+    {
+      "check": "provenance_uniqueness",
+      "status": "PASS",
+      "detail": "three accurately labelled provenance records; no duplicate content"
+    },
+    {
+      "check": "external_fact_record",
+      "status": "PASS",
+      "detail": "four load-bearing contemporary claims have source, date, URL, status, claim boundary, and scope boundary"
+    },
+    {
+      "check": "supplement",
+      "status": "PASS",
+      "detail": "supplement verifier PASS; ZIP CRC PASS; 20 files"
+    },
+    {
+      "check": "release_reports_and_claim_boundary",
+      "status": "PASS",
+      "detail": "191 pages visually inspected; workbook QA PASS; accessibility has no high/medium findings; prohibited empirical/legal/moral/deployment claims remain explicit"
+    }
+  ],
+  "errors": []
+}

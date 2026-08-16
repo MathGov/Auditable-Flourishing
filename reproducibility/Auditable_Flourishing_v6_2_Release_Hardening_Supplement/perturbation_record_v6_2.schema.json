@@ -1,0 +1,193 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ripplelogic.org/schemas/af/v6.2/perturbation-record.schema.json",
+  "title": "AF v6.2 perturbation proposal, admission and replay record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "proposal_id",
+    "comparison_id",
+    "candidate_id",
+    "dimension",
+    "recorded_category",
+    "proposed_category",
+    "evidence_ref",
+    "material_to_relation",
+    "proposer_id",
+    "admission_status",
+    "admission_reason",
+    "base_relation",
+    "appeal_status"
+  ],
+  "properties": {
+    "proposal_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "comparison_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "candidate_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dimension": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recorded_category": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    },
+    "proposed_category": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 4
+    },
+    "anchor_conflict": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "material_to_relation": {
+      "enum": [
+        "yes",
+        "no",
+        "indeterminate"
+      ]
+    },
+    "proposer_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "second_reviewer_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "adjudicator_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "admission_status": {
+      "enum": [
+        "proposed",
+        "admitted",
+        "rejected",
+        "withdrawn",
+        "superseded"
+      ]
+    },
+    "admission_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "dependence_group_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "reversal_capable": {
+      "enum": [
+        "yes",
+        "no",
+        "indeterminate"
+      ]
+    },
+    "base_relation": {
+      "enum": [
+        "a_dominates_b",
+        "b_dominates_a",
+        "crossing",
+        "tie",
+        "unresolved"
+      ]
+    },
+    "perturbed_relation": {
+      "enum": [
+        "a_dominates_b",
+        "b_dominates_a",
+        "crossing",
+        "tie",
+        "unresolved",
+        null
+      ]
+    },
+    "appeal_status": {
+      "enum": [
+        "not_appealed",
+        "appealed_pending",
+        "appeal_sustained",
+        "appeal_rejected"
+      ]
+    },
+    "duplicate_or_strategic_flag": {
+      "type": "boolean"
+    },
+    "record_version": {
+      "const": "AF-SB-RELATION-v6.0"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "admission_status": {
+            "const": "admitted"
+          }
+        }
+      },
+      "then": {
+        "anyOf": [
+          {
+            "properties": {
+              "second_reviewer_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "second_reviewer_id"
+            ]
+          },
+          {
+            "properties": {
+              "adjudicator_id": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "adjudicator_id"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "admission_status": {
+            "const": "admitted"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "reversal_capable",
+          "perturbed_relation",
+          "record_version"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "AF_v6_2_case_record.schema.json",
+  "title": "Auditable Flourishing v6.2 Case Record",
+  "type": "object",
+  "required": [
+    "case_id",
+    "decision_status",
+    "evidence_state",
+    "review_state",
+    "record_version",
+    "evidence_items"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "record_version": {
+      "type": "string",
+      "pattern": "^6\\.2(?:\\.[0-9]+)?$"
+    },
+    "decision_status": {
+      "enum": [
+        "PROTOCOL_REFUSAL",
+        "UNPATCHABLE_DEFECT",
+        "PATCHABLE_DEFECT",
+        "INDETERMINATE",
+        "CONTROL_DEPENDENT",
+        "ADMISSIBLE",
+        "NON_MATERIAL"
+      ]
+    },
+    "evidence_state": {
+      "enum": [
+        "ESTABLISHED",
+        "UNRESOLVED",
+        "CONFLICTING",
+        "STALE",
+        "OUTSIDE_VALIDITY_DOMAIN",
+        "NOT_APPLICABLE"
+      ]
+    },
+    "review_state": {
+      "enum": [
+        "UNREVIEWED",
+        "INDEPENDENTLY_REVIEWED",
+        "ADJUDICATED",
+        "APPEALED",
+        "CLOSED"
+      ]
+    },
+    "known_defects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "defect_id",
+          "severity",
+          "status",
+          "evidence_refs"
+        ],
+        "properties": {
+          "defect_id": {
+            "type": "string"
+          },
+          "severity": {
+            "enum": [
+              "PATCHABLE",
+              "UNPATCHABLE",
+              "KNOWN_OTHER"
+            ]
+          },
+          "status": {
+            "enum": [
+              "OPEN",
+              "CORRECTED",
+              "DISPUTED"
+            ]
+          },
+          "evidence_refs": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "evidence_items": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "evidence_id",
+          "claim",
+          "state",
+          "source",
+          "timestamp_utc"
+        ],
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "state": {
+            "enum": [
+              "ESTABLISHED",
+              "UNRESOLVED",
+              "CONFLICTING",
+              "STALE",
+              "OUTSIDE_VALIDITY_DOMAIN",
+              "NOT_APPLICABLE"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "timestamp_utc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "validity_domain": {
+            "type": "string"
+          },
+          "uncertainty": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "perturbations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "perturbation_id",
+          "disposition"
+        ],
+        "properties": {
+          "perturbation_id": {
+            "type": "string"
+          },
+          "disposition": {
+            "enum": [
+              "ADMITTED",
+              "REJECTED_DUPLICATE",
+              "REJECTED_IMMATERIAL",
+              "REJECTED_UNSUPPORTED",
+              "REJECTED_STRATEGIC_TIMING",
+              "WITHDRAWN"
+            ]
+          },
+          "appeal_status": {
+            "enum": [
+              "NOT_FILED",
+              "PENDING",
+              "UPHELD",
+              "REVERSED",
+              "PARTIALLY_REMANDED",
+              "CLOSED"
+            ]
+          }
+        }
+      }
+    },
+    "supersedes_record_hash": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

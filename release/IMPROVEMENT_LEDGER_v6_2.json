@@ -1,0 +1,126 @@
+{
+  "release": "AF-v6.2",
+  "items": [
+    {
+      "id": "AF61-01",
+      "priority": "P0",
+      "area": "provenance",
+      "change": "Remove exact duplicate and relabel raw pre-correction audit",
+      "where": "provenance/",
+      "why": "A misleading duplicate undermines the package's own artifact-integrity claims",
+      "acceptance_test": "No duplicate SHA-256 content in provenance; raw review retained once under accurate name",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-02",
+      "priority": "P0",
+      "area": "canonical registry",
+      "change": "Add machine-readable canonical registry",
+      "where": "release/AF_CANONICAL_REGISTRY_v6_2.json",
+      "why": "Authority, stable identifiers, precedence, and evidence boundaries should be inspectable in one record",
+      "acceptance_test": "Verifier compares registry to Core, Methods, workbook, and reference logic",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-03",
+      "priority": "P0",
+      "area": "version binding",
+      "change": "Synchronize active release identifiers to AF-v6.2 while preserving stable component IDs",
+      "where": "all active artifacts",
+      "why": "Release drift is a direct C0/C2 integrity defect",
+      "acceptance_test": "No undeclared active AF-v6.0 strings; stable IDs explicitly allowlisted",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-04",
+      "priority": "P1",
+      "area": "artifact authority",
+      "change": "Publish authority and conflict-resolution policy",
+      "where": "release/ARTIFACT_AUTHORITY_AND_VERSION_POLICY_v6_2.md",
+      "why": "Readers should not infer authority from filenames or rendering format",
+      "acceptance_test": "Policy names controlling source, delegated scope, change classes, and fail-closed conflict rule",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-05",
+      "priority": "P1",
+      "area": "external facts",
+      "change": "Add dated primary-source verification record",
+      "where": "release/EXTERNAL_FACT_VERIFICATION_RECORD_v6_2.md/json",
+      "why": "Contemporary claims can change and should be separated from conceptual claims",
+      "acceptance_test": "Four load-bearing claims have official/primary URLs, status, date, and boundary",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-06",
+      "priority": "P0",
+      "area": "verification",
+      "change": "Replace dependency-sensitive root checks with portable ZIP/XML verification",
+      "where": "verify_release_v6_2.py",
+      "why": "Independent replay should not require a desktop workbook stack",
+      "acceptance_test": "Verifier passes from clean extracted ZIP and checks workbook configuration, triplets, registry, provenance, and supplement",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-07",
+      "priority": "P1",
+      "area": "usability",
+      "change": "Add one start-here route and update package map",
+      "where": "START_HERE.md; README.md; release/PACKAGE_MAP_v6_2.md",
+      "why": "A large multi-artifact package needs a bounded entry path",
+      "acceptance_test": "Primary reading, implementation, and verification paths are named",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-08",
+      "priority": "P0",
+      "area": "production QA",
+      "change": "Rebuild and visually inspect all DOCX/PDF and key workbook surfaces",
+      "where": "release/TABLE_AND_VISUAL_QA_RECORD_v6_2.json",
+      "why": "Container integrity alone cannot detect clipping, overlap, or rendering regressions",
+      "acceptance_test": "All pages rendered; contact-sheet review and PDF preflight pass; workbook previews inspected",
+      "status": "implemented"
+    },
+    {
+      "id": "AF61-09",
+      "priority": "P0",
+      "area": "publication graphics and pagination",
+      "change": "Reconstruct nine figures and rebalance two sparse Core continuations without semantic change",
+      "where": "media/; Core Protocol DOCX/PDF; Measurement Handbook DOCX/PDF; visual QA record",
+      "why": "Text overflow, callout overlap, connector collisions, and isolated continuation pages weakened publication quality and could obscure meaning",
+      "acceptance_test": "Nine corrected assets fit their panels; embedded assets match packaged media by SHA-256; corrected documents render cleanly across 122 pages; total family remains 190 pages; root and clean-extraction verifiers pass",
+      "status": "implemented"
+    },
+    {
+      "id": "AF62-10",
+      "priority": "P0",
+      "area": "version binding",
+      "change": "Complete current-package v6.2 reference audit while preserving only explicit historical v6.1 provenance",
+      "where": "root metadata; publication/; release/; submission/; reproducibility supplement",
+      "why": "Mixed current-release labels weaken repository identity and reproducibility",
+      "acceptance_test": "Current package metadata and active bindings identify AF-v6.2; any v6.1 mention is explicitly historical/provenance only",
+      "status": "implemented"
+    },
+    {
+      "id": "AF62-11",
+      "priority": "P0",
+      "area": "publication formatting",
+      "change": "Repair escaped Markdown line breaks, duplicated legacy/current TOC titles, and malformed Measurement Handbook TOC page suffixes",
+      "where": "publication Markdown/DOCX/PDF family and release report triplets",
+      "why": "Visible release-artifact defects weaken professional readability and GitHub/web publication quality",
+      "acceptance_test": "Changed DOCX files rerender cleanly; static TOCs show one v6.2 title and correct visible page suffixes; no literal escaped newline sequences remain",
+      "status": "implemented"
+    },
+    {
+      "id": "AF62-12",
+      "priority": "P0",
+      "area": "verification and workbook parity",
+      "change": "Reconcile the 19-sheet workbook, byte-identical supplement copy, page totals, supplement inventory, and root checksum/verifier records",
+      "where": "reproducibility/; release QA records; root/supplement verifiers and hash inventories",
+      "why": "Stale workbook/page/inventory metadata can cause a formally complete package to fail its own release checks",
+      "acceptance_test": "Supplement verifier PASS; root verifier PASS; 19 workbook sheets reported; 191 PDF pages reported; clean-extraction verifier PASS",
+      "status": "implemented"
+    }
+  ],
+  "updated_at_utc": "2026-08-15T09:00:00Z"
+}
