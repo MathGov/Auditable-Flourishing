@@ -1,0 +1,506 @@
+{
+  ".gitattributes": {
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b",
+    "normalize_crlf": true
+  },
+  ".zenodo.json": {
+    "sha256": "500ae557d963c77ab06cb15dff222319fb1c84bbaacb3fa2933b11de24c17d32",
+    "normalize_crlf": true
+  },
+  "CITATION.cff": {
+    "sha256": "e5c14b8cd52e45faf1bbe6bd46a86ec4dbce2666457f9079eaee739772840160",
+    "normalize_crlf": true
+  },
+  "HOW_TO_VERIFY.md": {
+    "sha256": "856a25ead6e37ed70cb545d88d9598342bfafbbf3cb6354b07c5b06f582389fe",
+    "normalize_crlf": true
+  },
+  "LICENSE_NOTE.md": {
+    "sha256": "1701d7a1a342c1ed490d52b1f182103d5bbf1d1ceb027f87c2796c60a36220ed",
+    "normalize_crlf": true
+  },
+  "README.md": {
+    "sha256": "a08189471d7079cd95041fcd85ed7d0f9b7490496ab8d8fdc696e136ecebe5a0",
+    "normalize_crlf": true
+  },
+  "SHA256SUMS.json": {
+    "sha256": "77868ecd221849eda9c5032d229d9f8c8bf2076260d0b3f91a818f1e7cad1626",
+    "normalize_crlf": true
+  },
+  "SHA256SUMS.txt": {
+    "sha256": "faebf79ac8fb228a1c9a9a9361c505f6bf2a15d8ee0f29843a3ce84a0e12fc78",
+    "normalize_crlf": true
+  },
+  "SHA256_MANIFEST.json": {
+    "sha256": "f6148da982eb372fb5529584f3b775195dc27df4a9fabc51efc01003131df24e",
+    "normalize_crlf": true
+  },
+  "START_HERE.md": {
+    "sha256": "a6209537621b2e73df7064cfe44de4a6d26364ec2d5ed0b1f04c7193be5dc30b",
+    "normalize_crlf": true
+  },
+  "THIRD_PARTY_RIGHTS.md": {
+    "sha256": "600b71bd54b4fc26f8910c777c9e1b80772326a3fbdcf2070cb7256b61976c23",
+    "normalize_crlf": true
+  },
+  "canonical/AF_v6_2_CANONICAL_REGISTRY.json": {
+    "sha256": "b20033a9f253319e111d60e4ea30688c6f8227b20cb782c66772172bbd1aa369",
+    "normalize_crlf": true
+  },
+  "canonical/AF_v6_2_MIXED_STATE_TEST_VECTORS.csv": {
+    "sha256": "9bc0223dac61268251168ec12ca950d3b533e069cc4f203c6068af53e8e1f32d",
+    "normalize_crlf": true
+  },
+  "canonical/AF_v6_2_MIXED_STATE_TEST_VECTORS.json": {
+    "sha256": "92aa21b49540bc4b2ffdaab84878b1a74952dd77ca6e7943bbe3a0310121d9bb",
+    "normalize_crlf": true
+  },
+  "canonical/AF_v6_2_case_record.schema.json": {
+    "sha256": "7b3a161670448f93102ce68849ae94f31b25d55f23d117c3f588efcf55aeec2b",
+    "normalize_crlf": true
+  },
+  "media/figure0_af_in_60_seconds.png": {
+    "sha256": "aa81f451b711015812055683eebc9f4655dd342db58f4ee4858be226dbbc156f",
+    "normalize_crlf": false
+  },
+  "media/figure0b_verdict_boundary.png": {
+    "sha256": "c97c7148e33f3063021db18f9da1fe8039c7da5a0df8ef58d0689ac040a555bb",
+    "normalize_crlf": false
+  },
+  "media/figure1.png": {
+    "sha256": "d7a2376e266342e1f5b21b02b76af52bbb89d45a69be566a6ed1d47d51331634",
+    "normalize_crlf": false
+  },
+  "media/figure2.png": {
+    "sha256": "0b17a1d540bf7bdbf33e78d9359f23874896e09d81b43150775ff971bc72c928",
+    "normalize_crlf": false
+  },
+  "media/figure3.png": {
+    "sha256": "65ae3ab0a79c03e618924bd372b60653fc50d792df34a52fdae432bfd9647152",
+    "normalize_crlf": false
+  },
+  "media/figure4.png": {
+    "sha256": "25d2e5a35df3085f0f4bc9abf445f17e6f737f35b36dfd1073d889da520ca793",
+    "normalize_crlf": false
+  },
+  "media/figure_cl_ladder.png": {
+    "sha256": "6fecb146abbc6e3e444824c0b4e6441b8a85166e07f4f05c8a44f447c6f219c9",
+    "normalize_crlf": false
+  },
+  "media/figure_independence_architecture.png": {
+    "sha256": "9a5fcfdbabbaaba6556002e3bd4ed890fc54f02c2ed61c3f136a2f3a242f1b08",
+    "normalize_crlf": false
+  },
+  "media/figure_perturbation_replay.png": {
+    "sha256": "8483b7de44b5c2a7c54e722e77f20d11952a6e4185911a76c4b50bfe1471755e",
+    "normalize_crlf": false
+  },
+  "media/figure_profiles.png": {
+    "sha256": "011f5abd9e6a4f5c73b4f99078e1835dae0149e504aa883aff16a905c2bb3632",
+    "normalize_crlf": false
+  },
+  "media/figure_stage_a_gates.png": {
+    "sha256": "2c127a38ea67856a8c3288126dc21f369a4dfe19ad353ca3ad81576b76dfb62c",
+    "normalize_crlf": false
+  },
+  "media/figure_validation_ladder.png": {
+    "sha256": "b2220b78e20eff6d9a3002db60e8ee2d1c318bddfd15d1bfbd0fbe2984c2269c",
+    "normalize_crlf": false
+  },
+  "media/measurement_figure1.png": {
+    "sha256": "840d909199aa6096ce5d2157c93974b98f63c1bab4030880fe0b1a37b6ed46a3",
+    "normalize_crlf": false
+  },
+  "media/measurement_figure2.png": {
+    "sha256": "bf6d0a64c5baa07412f14262d07ac547aff8c2fec30d2c9c36887c2cd8aaa66c",
+    "normalize_crlf": false
+  },
+  "provenance/AF_v5_9_Independent_Audit_for_v6_0.md": {
+    "sha256": "077660e9a42da27b17335ecba5b78caf019771b3dcdf1dc8ae4d9b61bac63344",
+    "normalize_crlf": true
+  },
+  "provenance/AF_v6_2_Post_Correction_Synchronization_Audit_2026-08-13.md": {
+    "sha256": "7ef2ba7659aaeed80e6eba05c7fd9837d933aa20ab80364af90bd515d1f04567",
+    "normalize_crlf": true
+  },
+  "provenance/Claude_v6_0_Pre_Correction_Review_2026-08-13.md": {
+    "sha256": "1fb08f01037c3de30d004a9a5519e821b737dd4e5653f1545e1f8426b10405b5",
+    "normalize_crlf": true
+  },
+  "provenance/external_feedback/Pasted_markdown_20260814-061123_RAW_UNADJUDICATED.md": {
+    "sha256": "d47bc17000ad344af176aed62f38205f198170c22d0888472239ce91ecd82434",
+    "normalize_crlf": true
+  },
+  "publication/Auditable_Flourishing_v6_2_Core_Protocol.docx": {
+    "sha256": "167ea9b015ed4cf7da50a311aa148b5d9659047779e885415d0674f142fa269d",
+    "normalize_crlf": false
+  },
+  "publication/Auditable_Flourishing_v6_2_Core_Protocol.md": {
+    "sha256": "0800b1b324e5408b22aa4c0c6ed9caab56745c4cfc887fbff68f9e04948e55c6",
+    "normalize_crlf": true
+  },
+  "publication/Auditable_Flourishing_v6_2_Core_Protocol.pdf": {
+    "sha256": "75525f371bc53ebdc32c96f67f1d58adf411c418dbec81b14c939c9be9b0df08",
+    "normalize_crlf": false
+  },
+  "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.docx": {
+    "sha256": "5615a858be7d2ebd90c46185624133a641a26be8288bc0f513751e590a889d3b",
+    "normalize_crlf": false
+  },
+  "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.md": {
+    "sha256": "cd51b1bccf74565d433b7664c450b5fedf9d6223b2c75b5c0e267ba286e2e947",
+    "normalize_crlf": true
+  },
+  "publication/Auditable_Flourishing_v6_2_Methods_Article_Submission_Draft.pdf": {
+    "sha256": "f77faabbff05a183c276053cef6fccc9f4f65f77900c99926360bc74f9339e5e",
+    "normalize_crlf": false
+  },
+  "publication/Challenge_Administration_Handbook_v6_2.docx": {
+    "sha256": "3140c9fdcc62ea32edacb9ef0574a7be181a4e394714ca964cb75e3ba746917d",
+    "normalize_crlf": false
+  },
+  "publication/Challenge_Administration_Handbook_v6_2.md": {
+    "sha256": "9dcfd7d15cef1d895885b4c8358f5151b10735490531e59118cc7a13dd444adb",
+    "normalize_crlf": true
+  },
+  "publication/Challenge_Administration_Handbook_v6_2.pdf": {
+    "sha256": "c7534871cdbb794839bdf44c2f092f4414c3b4a2abcab0dcb7ea46b1076abc70",
+    "normalize_crlf": false
+  },
+  "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.docx": {
+    "sha256": "b23f57575a6c9cd9bf8cd6bd587e5add88002e310e7d982bac191867a64ccfc8",
+    "normalize_crlf": false
+  },
+  "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.md": {
+    "sha256": "21b021930d90b39e1cab2f37ac0909a494db2b1ecc9ba5529c15f7985b7e0e0d",
+    "normalize_crlf": true
+  },
+  "publication/Constitutional_Legitimacy_and_Stewardship_Charter_v6_2.pdf": {
+    "sha256": "0604564d6177b74bba793d03fc06eb4093956cda5686dc0e1aad5c398ee0eeff",
+    "normalize_crlf": false
+  },
+  "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.docx": {
+    "sha256": "972bf66041a6dcd49d336b7c6474c45d3eed23e9827b97340309132e32632d13",
+    "normalize_crlf": false
+  },
+  "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.md": {
+    "sha256": "40b34f5b73a896de1eb6c81e036d61344c70be3f7724cfe63d8da2012a5f55ed",
+    "normalize_crlf": true
+  },
+  "publication/External_Validation_Burden_and_Decision_Value_Protocol_v6_2.pdf": {
+    "sha256": "e54fc78dea00625d94f15ab16d567826eca3c7e78a3f9690a10526dc6d17b031",
+    "normalize_crlf": false
+  },
+  "publication/Legal_Rights_and_Authorization_Note_v6_2.docx": {
+    "sha256": "2c1fcc3b544cff92927bb0344dd9b6a82bf68fbe8afdb253d25d8b9de298b0e7",
+    "normalize_crlf": false
+  },
+  "publication/Legal_Rights_and_Authorization_Note_v6_2.md": {
+    "sha256": "8914fcf228ed6a38ae6235cb70432d08cf549cbc446fc6bd3ee25868d5511322",
+    "normalize_crlf": true
+  },
+  "publication/Legal_Rights_and_Authorization_Note_v6_2.pdf": {
+    "sha256": "eaff9be9fd29efb6d1a5ee3a60ad0cfc1d4e7be67122c3aafd381026bb05a950",
+    "normalize_crlf": false
+  },
+  "publication/MASTER_REFERENCE_CATALOG_v6_2.docx": {
+    "sha256": "41e11e2c9792b9fb11a420df6c046278b4441b18cd0ceb71065c77c957e0816e",
+    "normalize_crlf": false
+  },
+  "publication/MASTER_REFERENCE_CATALOG_v6_2.md": {
+    "sha256": "0b64b90a3ca12915de42f2988c1f4ece622ab1437b92558f860a3c692ead50bd",
+    "normalize_crlf": true
+  },
+  "publication/MASTER_REFERENCE_CATALOG_v6_2.pdf": {
+    "sha256": "9f8fbfb77040bab0a3c7f5ebd3716cedd405979c99ab60fb5dd22310c340ff3c",
+    "normalize_crlf": false
+  },
+  "publication/Measurement_and_Construct_Handbook_v6_2.docx": {
+    "sha256": "4a74e7b89c77938ec0ea787c3405781d8cea5bd2ccd83f3246bbe2b02435e382",
+    "normalize_crlf": false
+  },
+  "publication/Measurement_and_Construct_Handbook_v6_2.md": {
+    "sha256": "f91b4bc57c8aeb2eed1e2e35600a2167400d0031c5159d392f21141eb5827000",
+    "normalize_crlf": true
+  },
+  "publication/Measurement_and_Construct_Handbook_v6_2.pdf": {
+    "sha256": "791924c82edb16d43d3c2cdbf260825e93c0fd406f78a360c17c08a96a1b17eb",
+    "normalize_crlf": false
+  },
+  "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.docx": {
+    "sha256": "a3f9d38d4b388d683f29bbf2696e75718ffb0f15cc9de3f8b47c17d323ed9523",
+    "normalize_crlf": false
+  },
+  "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.md": {
+    "sha256": "dfaea8620021f0d7dfc9bd5f71cb751d78d760b392f44f66d4f44f7ee974fb5b",
+    "normalize_crlf": true
+  },
+  "publication/Phase_0_Feasibility_and_Registered_Report_Protocol_v6_2.pdf": {
+    "sha256": "1deffc612b2d1ae3fee90118827907ea574e86c6407a7da1e291b945307abbf1",
+    "normalize_crlf": false
+  },
+  "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.docx": {
+    "sha256": "89be1a8d535898169a5b4c960dc0cffd63c34c2788fb8ebe7d3331679fcd7240",
+    "normalize_crlf": false
+  },
+  "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.md": {
+    "sha256": "93fc8ffca81a9f45259ef70c4febf43eb93aae70be83ecf749b13c9eac014f9f",
+    "normalize_crlf": true
+  },
+  "publication/Reviewer_Training_Qualification_and_Rating_Deposit_Standard_v6_2.pdf": {
+    "sha256": "9d86e41440dbb059d48faeeb410c9fe870c32c61ae0ea2ae79ec6084b06fde26",
+    "normalize_crlf": false
+  },
+  "publication/Scenario_Governance_and_Calibration_Standard_v6_2.docx": {
+    "sha256": "faf446c06fcf1994573859e9e46fa162afa60165544d61ddd5d867e0512665ee",
+    "normalize_crlf": false
+  },
+  "publication/Scenario_Governance_and_Calibration_Standard_v6_2.md": {
+    "sha256": "1b8050fe619c4d841e190fae4f8f5a1841024f1e94cf63fabf4dcb460a02b004",
+    "normalize_crlf": true
+  },
+  "publication/Scenario_Governance_and_Calibration_Standard_v6_2.pdf": {
+    "sha256": "5c4729597144bbe626894eda3bea98e05981838f2a9e10ac8f51d80d5d96484a",
+    "normalize_crlf": false
+  },
+  "publication/Stage_A_Operational_Anchors_v6_2.docx": {
+    "sha256": "14225e5dd334d2183ebf1021f2d414f656294b090cddd58545ccf594908d830e",
+    "normalize_crlf": false
+  },
+  "publication/Stage_A_Operational_Anchors_v6_2.md": {
+    "sha256": "25f5932f2e72fa0d62dbf79f9c44341668cdd17d36db5af4522528253b08c065",
+    "normalize_crlf": true
+  },
+  "publication/Stage_A_Operational_Anchors_v6_2.pdf": {
+    "sha256": "70a2dafbfb1c27c0e97e4604692831b0eb286bc84007e599b9dbf3ac7b7c8253",
+    "normalize_crlf": false
+  },
+  "release/AF_CANONICAL_REGISTRY_v6_2.json": {
+    "sha256": "aff161424dbaf51b26da494e77079bdeec6057d0d4cf3aaab580d6472e0d7438",
+    "normalize_crlf": true
+  },
+  "release/AF_CANONICAL_REGISTRY_v6_2.md": {
+    "sha256": "d46a4d654db64ad723f86f509450f7a2b121dba8346aae9dc8c7285cf37fb3da",
+    "normalize_crlf": true
+  },
+  "release/AF_v6_2_FEEDBACK_ADJUDICATION.md": {
+    "sha256": "21e052163da8e38ac02d26667e96bbe432288617379b4521e4cbe7bc469aa209",
+    "normalize_crlf": true
+  },
+  "release/AF_v6_2_RELEASE_NOTES.md": {
+    "sha256": "06810e3671646c2b2876293c6e0afc4e07a078fc530f863ff1125128b918a4fc",
+    "normalize_crlf": true
+  },
+  "release/AF_v6_2_RELEASE_STATUS.json": {
+    "sha256": "131efa0df650f2c7a9d9a575121aaa48ce50ccf2dbace8605b5cc069681b9f61",
+    "normalize_crlf": true
+  },
+  "release/ARTIFACT_AUTHORITY_AND_VERSION_POLICY_v6_2.md": {
+    "sha256": "0695fc3291d8776610dba390279ef8e2262d8a23ee19d38e5fa78a623341717a",
+    "normalize_crlf": true
+  },
+  "release/AUDIT_ADJUDICATION_LEDGER_v6_2.json": {
+    "sha256": "35e2f935cae8b16c8f5d24295ac0616dfe9f8d5d0be00407547c009e92bd7649",
+    "normalize_crlf": true
+  },
+  "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.docx": {
+    "sha256": "4b0ed1237cf1385e430c6571a898751333063e5141ef3a2a3aa49bcbda78768a",
+    "normalize_crlf": false
+  },
+  "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.md": {
+    "sha256": "04edc616055c5d2c6d0fe85be80de1a4923823cafb04c7c28e578435c6ab9f76",
+    "normalize_crlf": true
+  },
+  "release/CLAUDE_AUDIT_ADJUDICATION_v6_2.pdf": {
+    "sha256": "e3074eddf5a0829401bd11ae50b6a904339d4247561146abd216dfafc084fcb2",
+    "normalize_crlf": false
+  },
+  "release/CORE_ACCESSIBILITY_AUDIT_v6_2.json": {
+    "sha256": "9ccda223f4ce923afc166b9589135e785caec9be620695dc24cacb472af9249f",
+    "normalize_crlf": true
+  },
+  "release/EXTERNAL_FACT_VERIFICATION_RECORD_v6_2.json": {
+    "sha256": "1062109ba8b7b7c538aa33b89d4e5ba77dbda88eea25ee23d571064b8c38dc39",
+    "normalize_crlf": true
+  },
+  "release/EXTERNAL_FACT_VERIFICATION_RECORD_v6_2.md": {
+    "sha256": "fa5be20c6fc9e920cd3e25da924a97a967008f357c0bbf4a5638ab41992f2f8d",
+    "normalize_crlf": true
+  },
+  "release/FINAL_VALIDATION_PASS.txt": {
+    "sha256": "fbe341b2a9fa30b21dc50b735d54acce9fbdbac1da1cbebea049bfe4cf58b877",
+    "normalize_crlf": true
+  },
+  "release/FINAL_VALIDATION_REPORT_v6_2.json": {
+    "sha256": "bc0e2b43a8c35b7817aee8379ec46e9ad9e262cb6915b8d0e80a247191f5fe15",
+    "normalize_crlf": true
+  },
+  "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.docx": {
+    "sha256": "acede5fc5a0d56f7b370e336f36f3f5d76cc8518979f7fcbf2f8f745386f3064",
+    "normalize_crlf": false
+  },
+  "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.md": {
+    "sha256": "9ed8a3e0671ac74b3fdb78c4fa780b1081ed25a41d1b2ca2df24b86c79b58eec",
+    "normalize_crlf": true
+  },
+  "release/IMPLEMENTATION_AND_VALIDATION_REPORT_v6_2.pdf": {
+    "sha256": "7a38cc8b363a4e3b97561f0da1c3460eea7c1d1fb2e6d3bb0a5b98059db3c744",
+    "normalize_crlf": false
+  },
+  "release/IMPROVEMENT_LEDGER_v6_2.csv": {
+    "sha256": "50feb93fad43f7f6c1d26ea7dd68723e5f9dd5bc7e7fef8e04bac158b2f52bcf",
+    "normalize_crlf": true
+  },
+  "release/IMPROVEMENT_LEDGER_v6_2.json": {
+    "sha256": "8e52fe9c3fa5fe1f51b9cd864286f0883fd8bde29b68dccbdd80bdb0924b7b3b",
+    "normalize_crlf": true
+  },
+  "release/KNOWN_LIMITATIONS_v6_2.md": {
+    "sha256": "41eeab4cc3ad172afa9b3d76fa05dc4345218164673da45f502df73e29bc78ef",
+    "normalize_crlf": true
+  },
+  "release/PACKAGE_MAP_v6_2.md": {
+    "sha256": "961ec628b13aae8a02a920d43c48d0ddf66aae005117dd7e36e8d4a8d793d926",
+    "normalize_crlf": true
+  },
+  "release/RELEASE_MANIFEST_v6_2.json": {
+    "sha256": "a05b826ea77338c0e1f0911419b44684340a9a7e18742b211b61fadb11c22e1b",
+    "normalize_crlf": true
+  },
+  "release/RELEASE_NOTES_v6_2.md": {
+    "sha256": "7fce730da3b5034d34390479c1dae3ec1319ab8b0c79d55972ff01f0c7cfa52b",
+    "normalize_crlf": true
+  },
+  "release/RELEASE_STATUS.json": {
+    "sha256": "a742850f00325bd8365cdfb04236208a8f3bb439599ee0fd35f4086207e229cc",
+    "normalize_crlf": true
+  },
+  "release/RELEASE_VERIFICATION_RECORD_v6_2.json": {
+    "sha256": "b36e1af0e6d8405d45884849fc69b6d3c3e8ae8209bcda8f7504ec41d8901287",
+    "normalize_crlf": true
+  },
+  "release/TABLE_AND_VISUAL_QA_RECORD_v6_2.json": {
+    "sha256": "25fcefdcdec3c94250ff737f432006659cec5dbc4438331b7fa24d1f14167155",
+    "normalize_crlf": true
+  },
+  "release/VALIDATION_STATUS_v6_2.docx": {
+    "sha256": "be46ea14893cee2ba3ffb58ae73ce58dab2af609199e7c0d848ae2c1b330a295",
+    "normalize_crlf": false
+  },
+  "release/VALIDATION_STATUS_v6_2.md": {
+    "sha256": "1d35c0e13dbfee07ec3b78fccf7602be7fd814d00f34b3eecd6bfc489d2a0a1e",
+    "normalize_crlf": true
+  },
+  "release/VALIDATION_STATUS_v6_2.pdf": {
+    "sha256": "10ce242099c7148645ffa4ef5ab7287d6c7991d8f97f424dbe1d6ea90c66e6c5",
+    "normalize_crlf": false
+  },
+  "release/WORKBOOK_VALIDATION_REPORT_v6_2.json": {
+    "sha256": "6b82a4c210c8a9c83f4c5b584f70dc2f2161e3cf6225997cada1ac378ae5ab9f",
+    "normalize_crlf": true
+  },
+  "reproducibility/AF_v6_2_External_Pilot_Aggregation_Workbook.xlsx": {
+    "sha256": "7b52707c548349e7e23e23cb9502c60c92e936f602341d3299d51b6a9387f9d5",
+    "normalize_crlf": false
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement.zip": {
+    "sha256": "479bd142e81d07816fe8990dcdb64bee9700cb69cc862962d883c9a60bd9e098",
+    "normalize_crlf": false
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/AF_v6_2_External_Pilot_Aggregation_Workbook.xlsx": {
+    "sha256": "7b52707c548349e7e23e23cb9502c60c92e936f602341d3299d51b6a9387f9d5",
+    "normalize_crlf": false
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/README.md": {
+    "sha256": "861fc163253be7bccc141879890cd8db79d7838dd3bb37086d84c1e8f9348c8d",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/SHA256SUMS.json": {
+    "sha256": "bf308426edb6f427e0bb3bf33a5f246077950879408bddfe58d3d000b5ca5022",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/SHA256SUMS.txt": {
+    "sha256": "c4f7c32d3438dac4a322b37793a923f8e6b16fdb441e0143742ec07f09dc01b8",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_record_hostile_v6_2.json": {
+    "sha256": "ea316227e6cdac9385ecf773cbb44e73babba40f4acfbf568a3024b9f3d252cd",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_record_v6_2.schema.json": {
+    "sha256": "90092ada685d53e580d8b12c790cfdbf1357d928be8dbdae2b28ee60cc5e7325",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_record_valid_v6_2.json": {
+    "sha256": "4a777b81fc0a00b06a7a0bd1d304228e0dc0f565f553e33d381f6e99f86469a7",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_sensitivity_v6_2.csv": {
+    "sha256": "1a01f7d831ecccc44313eb1a5f94f316e0cb357a3dd1bfcd25fb5153ee158a66",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_sensitivity_v6_2.json": {
+    "sha256": "c1a05bcc5521d87c953136d6b8256373d9cb2c22c4b706f1392907d2bff7fb0a",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_sensitivity_v6_2.log": {
+    "sha256": "a11c7adc229dfbdcc7495a3ff41003c4503e722bc8e504ee19f5651c37d9f032",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/perturbation_sensitivity_v6_2.py": {
+    "sha256": "cb00082cf6ae13c596d35067a53c7b93fbb6a08f3866fedc42e3f7cdbbf5e3aa",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/reference_logic_v6_2.py": {
+    "sha256": "e7d0681be1c8cc84833af5ba758779aa26d3ce6d0357c62b6bf4757d653c9785",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/stage_a_status_vocabulary_v6_2.json": {
+    "sha256": "d0135bdd3be2805ed65a6e25df3b79aa63683cf8fab1e7c3caa571950f39da5e",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/stage_b_yield_simulation_v6_2.csv": {
+    "sha256": "04d8cb44ae9c363e3ef6e29d824f8e5f4030eb516fee813791dcf03cbd8c8abd",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/stage_b_yield_simulation_v6_2.json": {
+    "sha256": "a1044d900ce1d420dc7488edf02bf62e6137095e744d6f80d094825486c5803a",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/stage_b_yield_simulation_v6_2.log": {
+    "sha256": "c3a1b406c8e1dfbb29ff919ac20cea72c65f40de5131b2db9b74b6eed232ef28",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/stage_b_yield_simulation_v6_2.py": {
+    "sha256": "b8b2e248e363aae5eb978fedc54ef5a99b604602bb9b88b48784b0ddf5049d87",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/test_reference_logic_v6_2.py": {
+    "sha256": "ba002e5a6f22eb3ae1169f2903538c5f591783dbcd8da9211cfff6ef55de7ab3",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/verify_supplement_v6_2.py": {
+    "sha256": "e4fe21cb120c5bb8541c0c2b043ba0fc16376b08a7b0d0f7fd72d8ddbc373e96",
+    "normalize_crlf": true
+  },
+  "reproducibility/Auditable_Flourishing_v6_2_Release_Hardening_Supplement/workbook_hostile_tests_v6_2.json": {
+    "sha256": "b73de5e05bd3b2388f6bfd8148d41a1daf879e098c02cecf5fd01db0eeafbcf0",
+    "normalize_crlf": true
+  },
+  "submission/PERSISTENT_REPOSITORY_DEPOSIT_CHECKLIST_v6_2.md": {
+    "sha256": "fa96d6503e6d0337fa345110deddbe9f3381446c8a27dffb6a06bb76f23afada",
+    "normalize_crlf": true
+  },
+  "submission/REGISTERED_REPORT_STAGE_1_OUTLINE_v6_2.md": {
+    "sha256": "ecdff579123b40113c2ffcbd39752616f0aa91e052e897c1a71b03c8c8117325",
+    "normalize_crlf": true
+  },
+  "verify_af_v6_2.py": {
+    "sha256": "60995b865b2ef773ad86bedb57351093efabbe6a3f75ac49a8f75f1b3c245e61",
+    "normalize_crlf": true
+  },
+  "verify_release_v6_2.py": {
+    "sha256": "95afe53137308aeeceb69256b287e82c9f30bb5d2ba749a76225616705b00838",
+    "normalize_crlf": true
+  }
+}
