@@ -19,3 +19,11 @@ Auditable Flourishing is a non-compensatory assurance protocol for evaluating fr
 Version 6.2 is a publication-integrity, provenance, verification, and deposit-readiness release. It does not alter C0-C5, Stage A precedence, AF-SB12-v5.6, the stable AF-SB-RELATION-v6.0 component, Stage B relation semantics, or the authority boundary.
 
 AF v6.2 does not establish empirical reliability, plural constitutional legitimacy, legal conformity, moral approval, community consent, certification, due diligence, foreseeability, procurement approval, or deployment authorization.
+
+## Open research and maintained repository
+
+Author-controlled materials are CC BY 4.0; see [LICENSE](LICENSE), [LICENSE_NOTE.md](LICENSE_NOTE.md) and [THIRD_PARTY_RIGHTS.md](THIRD_PARTY_RIGHTS.md). The fixed v6.2 release remains unchanged.
+
+Run `python scripts/verify_publication.py` for repository-payload and original-archive integrity. Run the full historical release verifier against the original extracted ZIP; the repository now adds maintained license/navigation/CI files outside the frozen package. CI performs the original verifier as well. These checks do not establish external empirical validation.
+
+[Current MathGov project directory](https://github.com/MathGov) · [RippleLogic v13.0](https://mathgov.github.io/ripple-logic/)
